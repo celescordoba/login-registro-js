@@ -28,19 +28,19 @@
             </div>
 
             <div class="contenedor__login-register">
-                <form action="" class="formulario__login">
+                <form action='form.php' method='POST' class="formulario__login">
                     <h2>Iniciar Sesion</h2>
                     <input type="text" placeholder="Correo Electronico">
                     <input type="password" placeholder="Contraseña">
                     <button>Entrar</button>
                 </form>
 
-                <form action="" class="formulario__register">
+                <form action='form.php' method='POST' class="formulario__register">
                     <h2>Registrarse</h2>
-                    <input type="text" placeholder="Nombre y Apellido">
-                    <input type="text" placeholder="Correo Electronico">
-                    <input type="text" placeholder="Usuario">
-                    <input type="password" placeholder="Contraseña">
+                    <input name="name"  type="name" placeholder="Nombre">
+                    <input name="email" type="email" placeholder="Correo">
+                    <input name="usuario" type="name" placeholder="Usuario">
+                    <input name="Clave" type="password" placeholder="Clave">
                     <button>Registrarse</button>
                 </form>
             </div>
